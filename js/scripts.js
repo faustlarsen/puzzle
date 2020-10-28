@@ -18,14 +18,9 @@ $(document).ready(function() {
 
     $(".puzzle").text(finalSent);
     $("#result").show();
-
+    $("input#puzzle").toggle(sentence);
   });
 });
-
-$(document).ready(function() {
-  $("button#hide").click()
-  $("#hide").hide(sentence);
-})
 
 /*
 1. Take a string
